@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primariaum: hsl(158, 36%, 37%);
+  --primariadois: hsla(30, 37%, 93%, 0.671);
+  --neutralum: hsl(212, 21%, 14%);
+  --neutraldois: hsl(228, 12%, 48%);
+  --neutraltres: hsl(0, 0%, 100%);
+}
+
+body {
+  background-color: var(--primariadois);
+}
+
+p{
+    font-size: 14px;
+}
+
+main{
+    display: flex;
+    height: 100vh;    
+    justify-content: center;
+    align-items: center;
+}
+
+.card{    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem{
+    border-radius: 10px;
+    border: solid red 2px;
+}
