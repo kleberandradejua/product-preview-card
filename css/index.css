@@ -7,7 +7,7 @@
 
 :root {
   --primariaum: hsl(158, 36%, 37%);
-  --primariadois: hsla(30, 37%, 93%, 0.671);
+  --primariadois: hsla(28, 69%, 82%, 0.671);
   --neutralum: hsl(212, 21%, 14%);
   --neutraldois: hsl(228, 12%, 48%);
   --neutraltres: hsl(0, 0%, 100%);
@@ -15,10 +15,6 @@
 
 body {
   background-color: var(--primariadois);
-}
-
-p{
-    font-size: 14px;
 }
 
 main{
@@ -36,6 +32,25 @@ main{
 }
 
 .imagem{
-    border-radius: 10px;
-    border: solid red 2px;
+    width: 500px;
+    height: 600px;
+    border-radius: 10px 0px 0px 10px;
+    overflow: hidden;
+}
+
+.info{
+  background-color: var(--neutraltres);
+  width: 500px;
+  height: 600px;
+  border-radius: 0px 10px 10px 0px;  
+}
+
+.context{
+  margin: 35px 150px 25px 30px;
+  text-align: justify;
+  word-break: break-all;
+}
+
+.nome{
+  letter-spacing: 8px;
 }
