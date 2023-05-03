@@ -27,6 +27,9 @@ main{
 h1{
   font-family: Fraunces, serif;  
   word-break: normal;
+  font-size: 49px;
+  height: 200px;
+  text-align: left;
 }
 
 .card{    
@@ -37,7 +40,7 @@ h1{
 }
 
 .imagem{
-    width: 500px;
+    width: 450px;
     height: 600px;
     border-radius: 10px 0px 0px 10px;
     overflow: hidden;
@@ -45,13 +48,13 @@ h1{
 
 .info{
   background-color: var(--neutraltres);
-  width: 500px;
+  width: 450px;
   height: 600px;
   border-radius: 0px 10px 10px 0px;  
 }
 
 .context{
-  margin: 35px 150px 25px 30px;
+  margin: 35px 70px 25px 30px;
   text-align: justify;
   word-break: break-all;
 }
