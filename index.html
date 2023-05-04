@@ -30,7 +30,10 @@
     <main>
       <div class="card">
         <div class="imagem">
-          <img src="images/image-product-desktop.jpg" height="100%" width="100%" alt="Perfume" />
+          <picture>
+            <source media="(max-width: 450)" srcset="images/image-product-mobile.jpg">
+            <img width="450" height="600" src="images/image-product-desktop.jpg" alt="perfume">
+          </picture>
         </div>
         <div class="info">
           <div class="context">
